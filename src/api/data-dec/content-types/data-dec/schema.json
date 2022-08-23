@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "data_decs",
+  "info": {
+    "singularName": "data-dec",
+    "pluralName": "data-decs",
+    "displayName": "DrTeeth",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nameDector": {
+      "type": "string",
+      "maxLength": 25,
+      "required": true
+    },
+    "DoctorSpecialty": {
+      "type": "string",
+      "required": true,
+      "maxLength": 30
+    },
+    "timeAttend": {
+      "type": "decimal",
+      "required": true
+    },
+    "attendanceDays": {
+      "type": "string",
+      "maxLength": 30
+    },
+    "dectornumber": {
+      "type": "biginteger",
+      "required": true
+    },
+    "imageDector": {
+      "type": "text"
+    }
+  }
+}

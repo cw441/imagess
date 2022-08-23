@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sickeyes",
+  "info": {
+    "singularName": "sickeye",
+    "pluralName": "sickeyes",
+    "displayName": "sickeye"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nameSick": {
+      "type": "string",
+      "required": true,
+      "maxLength": 25
+    },
+    "age": {
+      "type": "biginteger",
+      "required": true
+    },
+    "sickNumber": {
+      "type": "biginteger",
+      "required": true
+    }
+  }
+}

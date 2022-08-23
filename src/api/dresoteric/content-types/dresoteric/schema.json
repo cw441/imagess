@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dresoterics",
+  "info": {
+    "singularName": "dresoteric",
+    "pluralName": "dresoterics",
+    "displayName": "DrEsoteric",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nameDector": {
+      "type": "string",
+      "required": true,
+      "maxLength": 25
+    },
+    "DoctorSpecialty": {
+      "type": "string",
+      "required": true,
+      "maxLength": 40
+    },
+    "timeAttend": {
+      "type": "biginteger",
+      "required": true
+    },
+    "attendanceDays": {
+      "type": "string",
+      "maxLength": 40,
+      "required": true
+    },
+    "dectornumber": {
+      "type": "biginteger",
+      "required": true
+    },
+    "imageDector": {
+      "type": "text"
+    }
+  }
+}

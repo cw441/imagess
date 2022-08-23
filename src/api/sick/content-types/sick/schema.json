@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sicks",
+  "info": {
+    "singularName": "sick",
+    "pluralName": "sicks",
+    "displayName": "sickteeth",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nameSick": {
+      "type": "string",
+      "maxLength": 20,
+      "required": true
+    },
+    "age": {
+      "type": "biginteger",
+      "required": true
+    },
+    "sickNumber": {
+      "type": "biginteger",
+      "required": true
+    }
+  }
+}

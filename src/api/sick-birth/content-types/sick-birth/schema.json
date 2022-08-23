@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sick_births",
+  "info": {
+    "singularName": "sick-birth",
+    "pluralName": "sick-births",
+    "displayName": "sickBirth"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "namesick": {
+      "type": "string",
+      "required": true,
+      "maxLength": 25
+    },
+    "age": {
+      "type": "biginteger",
+      "required": true
+    },
+    "sickNumber": {
+      "type": "biginteger",
+      "required": true
+    }
+  }
+}

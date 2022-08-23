@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dr_eyes",
+  "info": {
+    "singularName": "dr-eye",
+    "pluralName": "dr-eyes",
+    "displayName": "DrEye",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nameDector": {
+      "type": "string",
+      "required": true,
+      "maxLength": 25
+    },
+    "DoctorSpecialty": {
+      "type": "string",
+      "maxLength": 40,
+      "required": true
+    },
+    "attendanceDays": {
+      "type": "string",
+      "required": true,
+      "maxLength": 40
+    },
+    "timeAttend": {
+      "type": "biginteger",
+      "required": true
+    },
+    "dectornumber": {
+      "type": "biginteger",
+      "required": true
+    },
+    "imageDector": {
+      "type": "text"
+    }
+  }
+}

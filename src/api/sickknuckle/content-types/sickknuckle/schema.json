@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sickknuckles",
+  "info": {
+    "singularName": "sickknuckle",
+    "pluralName": "sickknuckles",
+    "displayName": "sickknuckle"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nameSick": {
+      "type": "string",
+      "required": true,
+      "maxLength": 25
+    },
+    "age": {
+      "type": "biginteger"
+    },
+    "sickNumber": {
+      "type": "biginteger",
+      "required": true
+    }
+  }
+}

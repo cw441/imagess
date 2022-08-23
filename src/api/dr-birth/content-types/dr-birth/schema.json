@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dr_births",
+  "info": {
+    "singularName": "dr-birth",
+    "pluralName": "dr-births",
+    "displayName": "DrBirth",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nameDector": {
+      "type": "string",
+      "required": true,
+      "maxLength": 25
+    },
+    "DoctorSpecialty": {
+      "type": "string",
+      "required": true,
+      "maxLength": 40
+    },
+    "attendanceDays": {
+      "type": "string",
+      "required": true,
+      "maxLength": 40
+    },
+    "timeAttend": {
+      "type": "biginteger",
+      "required": true
+    },
+    "dectornumber": {
+      "type": "biginteger",
+      "required": true
+    },
+    "imageDector": {
+      "type": "text"
+    }
+  }
+}
