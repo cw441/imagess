@@ -4,7 +4,8 @@
   "info": {
     "singularName": "sicksurgery",
     "pluralName": "sicksurgeries",
-    "displayName": "sicksurgery"
+    "displayName": "sicksurgery",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -23,6 +24,11 @@
     "sickNumber": {
       "type": "biginteger",
       "required": true
+    },
+    "nameDector": {
+      "type": "string",
+      "required": true,
+      "maxLength": 25
     }
   }
 }

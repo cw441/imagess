@@ -24,6 +24,11 @@
     "sickNumber": {
       "type": "biginteger",
       "required": true
+    },
+    "nameDector": {
+      "type": "string",
+      "required": true,
+      "maxLength": 25
     }
   }
 }

@@ -4,7 +4,8 @@
   "info": {
     "singularName": "sickknuckle",
     "pluralName": "sickknuckles",
-    "displayName": "sickknuckle"
+    "displayName": "sickknuckle",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -22,6 +23,11 @@
     "sickNumber": {
       "type": "biginteger",
       "required": true
+    },
+    "nameDector": {
+      "type": "string",
+      "required": true,
+      "maxLength": 25
     }
   }
 }
