@@ -37,6 +37,10 @@
       "type": "string",
       "required": true,
       "maxLength": 30
+    },
+    "location": {
+      "type": "text",
+      "required": true
     }
   }
 }
