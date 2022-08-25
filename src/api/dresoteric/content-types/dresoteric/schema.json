@@ -22,10 +22,6 @@
       "required": true,
       "maxLength": 40
     },
-    "timeAttend": {
-      "type": "biginteger",
-      "required": true
-    },
     "attendanceDays": {
       "type": "string",
       "maxLength": 40,
@@ -37,6 +33,11 @@
     },
     "imageDector": {
       "type": "text"
+    },
+    "timeAttend": {
+      "type": "string",
+      "required": true,
+      "maxLength": 30
     }
   }
 }

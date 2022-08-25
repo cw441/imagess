@@ -27,16 +27,17 @@
       "required": true,
       "maxLength": 40
     },
-    "timeAttend": {
-      "type": "biginteger",
-      "required": true
-    },
     "dectornumber": {
       "type": "biginteger",
       "required": true
     },
     "imageDector": {
       "type": "text"
+    },
+    "timeAttend": {
+      "type": "string",
+      "required": true,
+      "maxLength": 30
     }
   }
 }
